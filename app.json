@@ -1,7 +1,7 @@
 {
-  "name": "KEN-UBOT",
-  "description": "[KEN-UBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERMAIN DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/9cf8933ad10f520fc72e2.jpg",
+  "name": "WIKI-UBOT",
+  "description": "[WIKI-UBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERMAIN DI TELEGRAM.",
+  "logo": "https://telegra.ph/file/141e065ef4b8b182ecf96.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/KennedyProject/KEN-UBOT",
-  "telegram": "https://t.me/xgothboi",
-  "success_url": "https://t.me/KennedyProject",
+  "repository": "https://github.com/Wiki28/WIKI-UBOT",
+  "telegram": "https://t.me/SadTimeStres",
+  "success_url": "https://t.me/Wiki28",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -41,13 +41,13 @@
       "required": true
     },
     "BOTLOG_CHATID": {
-      "description": "Buatlah Sebuah Grup Publik Lalu Masukkan Bot @MissRose_Bot Ke Grup Mu, Setelah itu Ketik /id. Nanti akan muncul ID seperti ini Contoh : -1001234567890",
-      "value": "Isi ID Grup Anda, Contoh -1001404961053",
+      "description": "Buatlah Sebuah Grup Publik Lalu Masukkan Bot @MissRose_Bot Ke Grup Mu, Setelah itu Ketik /id. Nanti akan muncul ID seperti ini Contoh : -1001735661117",
+      "value": "-1001735661117",
       "required": true
     },
     "G_BAN_LOGGER_GROUP": {
-      "description": "Buatlah Sebuah Grup Publik Lalu Masukkan Bot @MissRose_Bot Ke Grup Mu, Setelah itu Ketik /id. Nanti akan muncul ID seperti ini Contoh : -1001234567890",
-      "value": "Isi ID Grup Anda, Contoh -1001404961053",
+      "description": "Buatlah Sebuah Grup Publik Lalu Masukkan Bot @MissRose_Bot Ke Grup Mu, Setelah itu Ketik /id. Nanti akan muncul ID seperti ini Contoh : -1001735661117",
+      "value": "-1001735661117",
       "required": true
     },
     "CONSOLE_LOGGER_VERBOSE": {
@@ -60,6 +60,7 @@
     },
     "GENIUS_ACCESS_TOKEN": {
       "description": "Client Access Token from https://genius.com/api-clients.",
+      "value": "vDhUmdo_ufwIvEymMeMY65IedjWaVm1KPupdx0L",
       "required": false
     },
     "MONGO_URI": {
@@ -68,6 +69,7 @@
     },
     "GENIUS": {
       "description": "Get this value from https://genius.com/developers., basically same as GENIUS_API_TOKEN.",
+      "value": "vDhUmdo_ufwIvEymMeMY65IedjWaVm1KPupdx0L",
       "required": false
     },
     "GITHUB_ACCESS_TOKEN": {
@@ -90,6 +92,7 @@
     },
     "OPEN_WEATHER_MAP_APPID": {
       "description": "Get your own APPID (API key)from https://api.openweathermap.org/data/2.5/weather",
+      "value": "04379643172a90ec8c81da4f337bd3cc",
       "required": false
     },
     "PM_AUTO_BAN": {
@@ -99,14 +102,17 @@
     },
     "YOUTUBE_API_KEY": {
       "description": "YouTube Data API Key for .yt command. Get from https://console.cloud.google.com",
+      "value": "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg",
       "required": false
     },
     "OCR_SPACE_API_KEY": {
       "description": "OCR API Key for .ocr command. Get from https://ocr.space/ocrapi",
+      "value": "12dc42a0ff88957",
       "required": false
     },
     "REM_BG_API_KEY": {
       "description": "API Key for .rbg command. Get from https://www.remove.bg/api",
+      "value": "ihAEGNtfnVtCsWnzqiXM1GcS",
       "required": false
     },
     "REDIS_URI": {
@@ -144,6 +150,7 @@
     },
     "LASTFM_API": {
       "description": "API Key for Last.FM module. [Get one from - https://www.last.fm/api/account/create]",
+      "value": "73d42d9c93626709dc2679d491d472bf",
       "required": false
     },
     "LASTFM_SECRET": {
@@ -164,14 +171,14 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "KEN-UBOT",
+      "value": "WIKI-UBOT",
       "required": false
     },
     "ALIVE_NAME": {
       "description": "Nama untuk menunjukan pesan .alive",
       "required": false
     },
-    "KEN_TEKS_KUSTOM": {
+    "WIKI_TEKS_KUSTOM": {
       "description": "Kustom Pesan Alive Mu Untuk Perintah .kenalive (Isi Terserah)",
       "required": false
     },
@@ -202,11 +209,12 @@
     },
     "LYDIA_API_KEY": {
       "description": "This Module Needs CoffeeHouse API to work. so Join https://telegram.dog/IntellivoidDev and send #activateapi and follow instructions.",
+      "value": "632740cd2395c73b58275b54ff57a02b607a9f8a4bbc0e37a24e7349a098f95eaa6569e22e2d90093e9c1a9cc253380a218bfc2b7af2e407494502f6fb76f97e",
       "required": false
     },
     "WEATHER_DEFCITY": {
       "description": "Set the default city for the userbot's weather module.",
-      "value": "Bandung",
+      "value": "Lombok NTB",
       "required": false
     },
     "WOLFRAM_ID": {
